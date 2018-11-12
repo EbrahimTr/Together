@@ -54,7 +54,7 @@ public class CameraActivity extends AppCompatActivity implements View.OnClickLis
             // do whatever you want with the image now}
         } else if (requestCode == 150 && resultCode == RESULT_CANCELED)
             Toast.makeText(this, "picture is cancelled", Toast.LENGTH_SHORT).show();
-        if (requestCode == 101 && requestCode == RESULT_OK)
+        if (requestCode == 101 && resultCode == RESULT_OK)
             Toast.makeText(this, "Bluetooth was Enabled", Toast.LENGTH_SHORT).show();
     }
 
@@ -88,8 +88,10 @@ public class CameraActivity extends AppCompatActivity implements View.OnClickLis
                 break;
 
             case R.id.call_location:
+                Toast.makeText(this, "Locaiton", Toast.LENGTH_SHORT).show();
                 break;
             //location
+            //changed to upload to github
 
         }
     }
