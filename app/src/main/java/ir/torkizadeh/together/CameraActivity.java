@@ -92,7 +92,7 @@ public class CameraActivity extends AppCompatActivity implements View.OnClickLis
                 break;
             //location
             //changed to upload to github
-
+            //some details
         }
     }
 }
