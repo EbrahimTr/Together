@@ -91,10 +91,9 @@ public class CameraActivity extends AppCompatActivity implements View.OnClickLis
                 Toast.makeText(this, "Locaiton", Toast.LENGTH_SHORT).show();
                 break;
             //location
-            //changed to upload to github
-            //some details
+      //branch 05
 
-            // adding something to test branch
+
         }
     }
 }
